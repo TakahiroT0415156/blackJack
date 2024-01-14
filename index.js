@@ -1,8 +1,13 @@
 // グローバル変数
 
 // カードの山
+let deck = [];
 // 自分のカード
+let myCard = [];
 // 相手のカード
+let partnersCard = [];
+// 勝敗決定フラグ
+let finishFlag = false;
 
 // イベントハンドラの割り当て
 
